@@ -1,4 +1,5 @@
 # DS4B: TU PRIMERA SEMANA COMO DATA SCIENTIST
+
 ### DIA 1: TU PRIMERA DÍA EN LA EMPRESA 
 Objetivos del proyecto
 
@@ -46,6 +47,33 @@ Aquí nos vemos,
 Hasta mañana
 
 ### DÍA 2: BUSINESS ANALYTICS 
+ Y mañana ...
+
+Hoy hemos aprendido un montón sobre Business Analytics:
+
+- Hemos visto lo que es la calidad de datos y por qué es tan importante
+- Hemos hecho un análisis de nulos y corregido los errores
+- Hemos realizado análisis exploratorio sobre todas nuestras variables
+- Hemos aprendido un par de funciones para hacer EDA que nos permitirán analizar de un plumazo cientos de variables
+- Hemos interiorizado un framework super útil para hacer Business Analyics y presentarlo de forma ganadora:
+   -Paso 1: Cuantificación del problema
+   -Paso 2: Impacto económico
+   -Paso 3: Escenarios de ahorro
+
+Hemos experimentado todas las posibilidades de "tirar del hilo" que se nos abren cuando usamos esta metodología y cómo puedes aportar con ella gran valor práctico a las empresas
+
+Pero solo estamos comenzando nuestro viaje!
+
+Mañana estate muy atento porque (si tenemos suerte y los resultados de hoy gustan y nos aprueban el presupuesto) vamos a desarrollar un sistema automático basado en algoritmos de machine learning.
+
+Que va a ser capaz de calcular PARA CADA EMPLEADO su probabilidad de que se vaya de la empresa.
+
+Además lo que aprenderás será extrapolable a otros casos que puedan ser de tu interés: propensión a compra, scoring de riesgos, mantenimiento preventivo, identificación de fraude, etc.
+
+Imagínate la potencia de esas soluciones y todas sus aplicaciones.
+
+Hasta mañana!
+
 ### DÍA 3: MACHINE LEARNING 
 ### DÍA 4: VISUALIZACIÓN Y COMUNICACIÓN 
 ### DÍA 5: COMO SERÁ TU FUTURO COMO DATA SCIENTIST 
