@@ -73,6 +73,28 @@ Imagínate la potencia de esas soluciones y todas sus aplicaciones.
 Hasta mañana!
 
 ### DÍA 3: MACHINE LEARNING 
+
+Hoy hemos aprendido un montón sobre Machine Learning:
+
+    Hemos entendido qué es esto de hacer un modelo y para qué sirve
+    Hemos visto las diferencias entre las fases de entrenamiento y puesta en producción
+    Hemos comprendido la necesidad de dividir los datos en train y test
+    Hemos conocido como funciona y cómo se interpreta el algoritmo de árbol de decisión
+    Hemos entrenado nuestro primer modelo de machine learning
+    Ya sabemos la principal métrica para evaluar modelos y los valores que indican si un modelo es bueno o malo
+    Hemos visto como usar el modelo para hacer nuevas predicciones
+    Hemos aprendido a leer el diagrama de un árbol de decisión y conocer las variables más relevantes
+    Hemos entendido qué hacer con las predicciones y diferentes formas de explotar los resultados
+
+Pero ahora nos falta una parte clave: cómo productivizar todo nuestro trabajo tanto de Business Analytics como de Machine Learning.
+
+Mañana conoceremos cuales son las alternativas para productivizar un proyecto de data science y desarrollaremos de principio a fin un dashboard que ponga en valor el trabajo que hemos realizado hasta ahora y le dé un formato muy atractivo y consumible para la organización.
+
+Además verás cómo poner ese dashboard en internet para poder usarlo para tu portfolio.
+
+Te espero aquí mismo.
+
+Hasta mañana!
 ### DÍA 4: VISUALIZACIÓN Y COMUNICACIÓN 
 ### DÍA 5: COMO SERÁ TU FUTURO COMO DATA SCIENTIST 
 
