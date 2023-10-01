@@ -46,7 +46,7 @@ Aquí nos vemos,
 Hasta mañana
 
 ### DÍA 2: BUSINESS ANALYTICS 
-### DIA 3
-### DIA 4
-### DIA 5
-### DIA 6
+### DÍA 3: MACHINE LEARNING 
+### DÍA 4: VISUALIZACIÓN Y COMUNICACIÓN 
+### DÍA 5: COMO SERÁ TU FUTURO COMO DATA SCIENTIST 
+
