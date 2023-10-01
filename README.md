@@ -22,17 +22,17 @@ Hoy nos vamos a centrar solo en 2 tareas, pero de gran importancia.
 
 El día de hoy ha sido de asentar las bases, pero muy productivo:
 
--Has entendido cómo se hace un proyecto de data science en el mundo empresarial
--Has visto los 3 componentes que tenemos que desarrollar en nuestro proyecto de esta semana:
+- Has entendido cómo se hace un proyecto de data science en el mundo empresarial
+- Has visto los 3 componentes que tenemos que desarrollar en nuestro proyecto de esta semana:
     -Business Analytics
     -Machine Learning
     -Productivización
--Has tenido un primer contacto con la tecnología necesaria: Python, Numpy, Pandas, Matplotlib, Scikitlearn
--Has creado tu cuenta en Google Colab para hacer proyectos de data science en los ordenadores de Google
--Has aprendido a importar notebooks y datos
--Has tenido una vista previa de como se va haciendo y ejecutando el código de un proyecto de data science
--Has aprendido lo que son los paquetes y cómo cargarlos
--Has cargado ya los datos necesarios para el proyecto
+- Has tenido un primer contacto con la tecnología necesaria: Python, Numpy, Pandas, Matplotlib, Scikitlearn
+- Has creado tu cuenta en Google Colab para hacer proyectos de data science en los ordenadores de Google
+- Has aprendido a importar notebooks y datos
+- Has tenido una vista previa de como se va haciendo y ejecutando el código de un proyecto de data science
+- Has aprendido lo que son los paquetes y cómo cargarlos
+- Has cargado ya los datos necesarios para el proyecto
 
 Realmente un día duro.
 
