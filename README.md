@@ -2,11 +2,11 @@
 
 Employee turnover costs calculation is the process of determining the financial impact of employee turnover on a business. It includes both direct and indirect costs, such as:
 
-    Direct costs:
+- Direct costs:
         Recruiting and hiring costs (e.g., advertising, job boards, recruiter fees)
         Onboarding and training costs
         Severance pay and unused vacation time
-    Indirect costs:
+- Indirect costs:
         Lost productivity
         Decreased morale
         Disruption to workflow
