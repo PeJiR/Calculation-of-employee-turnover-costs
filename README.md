@@ -45,7 +45,7 @@ Aquí nos vemos,
 
 Hasta mañana
 
-### DIA 2
+### DÍA 2: BUSINESS ANALYTICS 
 ### DIA 3
 ### DIA 4
 ### DIA 5
