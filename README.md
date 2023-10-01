@@ -76,15 +76,15 @@ Hasta mañana!
 
 Hoy hemos aprendido un montón sobre Machine Learning:
 
-Hemos entendido qué es esto de hacer un modelo y para qué sirve
-Hemos visto las diferencias entre las fases de entrenamiento y puesta en producción
-Hemos comprendido la necesidad de dividir los datos en train y test
-Hemos conocido como funciona y cómo se interpreta el algoritmo de árbol de decisión
-Hemos entrenado nuestro primer modelo de machine learning
-Ya sabemos la principal métrica para evaluar modelos y los valores que indican si un modelo es bueno o malo
-Hemos visto como usar el modelo para hacer nuevas predicciones
-Hemos aprendido a leer el diagrama de un árbol de decisión y conocer las variables más relevantes
-Hemos entendido qué hacer con las predicciones y diferentes formas de explotar los resultados
+- Hemos entendido qué es esto de hacer un modelo y para qué sirve
+- Hemos visto las diferencias entre las fases de entrenamiento y puesta en producción
+- Hemos comprendido la necesidad de dividir los datos en train y test
+- Hemos conocido como funciona y cómo se interpreta el algoritmo de árbol de decisión
+- Hemos entrenado nuestro primer modelo de machine learning
+- Ya sabemos la principal métrica para evaluar modelos y los valores que indican si un modelo es bueno o malo
+- Hemos visto como usar el modelo para hacer nuevas predicciones
+- Hemos aprendido a leer el diagrama de un árbol de decisión y conocer las variables más relevantes
+- Hemos entendido qué hacer con las predicciones y diferentes formas de explotar los resultados
 
 Pero ahora nos falta una parte clave: cómo productivizar todo nuestro trabajo tanto de Business Analytics como de Machine Learning.
 
