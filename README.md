@@ -1,6 +1,6 @@
 #  ✨Calculation of employee turnover costs✨
 
-[See Project](TPS_Dia_1_Configuracion.ipynb)
+### [See Project](TPS_Dia_1_Configuracion.ipynb)
 
 Employee turnover costs calculation is the process of determining the financial impact of employee turnover on a business. It includes both direct and indirect costs, such as:
 
@@ -26,4 +26,4 @@ Once businesses have calculated the cost of employee turnover, they can use this
 
 By reducing employee turnover, businesses can save money and improve their bottom line.
 
-[See Project](TPS_Dia_1_Configuracion.ipynb)
+### [See Project](TPS_Dia_1_Configuracion.ipynb)
