@@ -26,4 +26,4 @@ Once businesses have calculated the cost of employee turnover, they can use this
 
 By reducing employee turnover, businesses can save money and improve their bottom line.
 
-### [See Project](TPS_Dia_1_Configuracion.ipynb)
+### [See Dashboard in Tableau]( https://public.tableau.com/shared/P6PGN3KPC?:display_count=n&:origin=viz_share_link)
