@@ -1,0 +1,1967 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0830.1549                               -->
+<workbook original-version='18.1' source-build='2023.2.0 (20232.23.0830.1549)' version='18.1' xml:base='http://localhost:9100' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location derived-from='http://localhost:9100/workbooks/Employeeturnovercostscalculation?rev=1.1' id='Employeeturnovercostscalculation' path='/workbooks' revision='1.2' />
+  <preferences />
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (Employee turnover costs calculation)' inline='true' name='federated.1vwcuie1fx16if165e62h04rolr4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Employee turnover costs calculation' name='excel-direct.0lebyyq021r8hc1c7w01p0073i3c'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/1hfdirj06hujz11gko0mu10defbx/Employee turnover costs calculation.xlsx' interpretationMode='0' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0lebyyq021r8hc1c7w01p0073i3c' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:AC1471:no:A1:AC1471:0' header='yes' outcome='6'>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='integer' name='age' ordinal='1' />
+            <column datatype='integer' name='turnover' ordinal='2' />
+            <column datatype='string' name='travel' ordinal='3' />
+            <column datatype='string' name='department' ordinal='4' />
+            <column datatype='integer' name='home_distance' ordinal='5' />
+            <column datatype='string' name='education' ordinal='6' />
+            <column datatype='string' name='carear' ordinal='7' />
+            <column datatype='string' name='satisfaction' ordinal='8' />
+            <column datatype='string' name='implication' ordinal='9' />
+            <column datatype='integer' name='working_level' ordinal='10' />
+            <column datatype='string' name='post' ordinal='11' />
+            <column datatype='string' name='work_satisfaction' ordinal='12' />
+            <column datatype='string' name='civil_status' ordinal='13' />
+            <column datatype='integer' name='month_salary' ordinal='14' />
+            <column datatype='integer' name='number_previous_jobs' ordinal='15' />
+            <column datatype='string' name='over_time' ordinal='16' />
+            <column datatype='integer' name='salary_increase' ordinal='17' />
+            <column datatype='string' name='evaluation' ordinal='18' />
+            <column datatype='string' name='wormates-satisfaction' ordinal='19' />
+            <column datatype='integer' name='actions_level' ordinal='20' />
+            <column datatype='integer' name='experience_years' ordinal='21' />
+            <column datatype='integer' name='num_trainnings_last_year' ordinal='22' />
+            <column datatype='integer' name='years_company' ordinal='23' />
+            <column datatype='integer' name='years_since_last_promotion' ordinal='24' />
+            <column datatype='integer' name='years_same_manager' ordinal='25' />
+            <column datatype='integer' name='annual_salary' ordinal='26' />
+            <column datatype='real' name='turnover_impact' ordinal='27' />
+            <column datatype='real' name='scoring_turnover' ordinal='28' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0lebyyq021r8hc1c7w01p0073i3c' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:AC1471:no:A1:AC1471:0' header='yes' outcome='6'>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='integer' name='age' ordinal='1' />
+            <column datatype='integer' name='turnover' ordinal='2' />
+            <column datatype='string' name='travel' ordinal='3' />
+            <column datatype='string' name='department' ordinal='4' />
+            <column datatype='integer' name='home_distance' ordinal='5' />
+            <column datatype='string' name='education' ordinal='6' />
+            <column datatype='string' name='carear' ordinal='7' />
+            <column datatype='string' name='satisfaction' ordinal='8' />
+            <column datatype='string' name='implication' ordinal='9' />
+            <column datatype='integer' name='working_level' ordinal='10' />
+            <column datatype='string' name='post' ordinal='11' />
+            <column datatype='string' name='work_satisfaction' ordinal='12' />
+            <column datatype='string' name='civil_status' ordinal='13' />
+            <column datatype='integer' name='month_salary' ordinal='14' />
+            <column datatype='integer' name='number_previous_jobs' ordinal='15' />
+            <column datatype='string' name='over_time' ordinal='16' />
+            <column datatype='integer' name='salary_increase' ordinal='17' />
+            <column datatype='string' name='evaluation' ordinal='18' />
+            <column datatype='string' name='wormates-satisfaction' ordinal='19' />
+            <column datatype='integer' name='actions_level' ordinal='20' />
+            <column datatype='integer' name='experience_years' ordinal='21' />
+            <column datatype='integer' name='num_trainnings_last_year' ordinal='22' />
+            <column datatype='integer' name='years_company' ordinal='23' />
+            <column datatype='integer' name='years_since_last_promotion' ordinal='24' />
+            <column datatype='integer' name='years_same_manager' ordinal='25' />
+            <column datatype='integer' name='annual_salary' ordinal='26' />
+            <column datatype='real' name='turnover_impact' ordinal='27' />
+            <column datatype='real' name='scoring_turnover' ordinal='28' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AC1471:no:A1:AC1471:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>turnover</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[turnover]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>turnover</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>travel</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[travel]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>travel</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>department</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[department]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>department</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>home_distance</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[home_distance]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>home_distance</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>education</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[education]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>education</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>carear</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[carear]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>carear</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>satisfaction</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[satisfaction]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>satisfaction</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>implication</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[implication]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>implication</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>working_level</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[working_level]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>working_level</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>post</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[post]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>post</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>work_satisfaction</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[work_satisfaction]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>work_satisfaction</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>civil_status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[civil_status]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>civil_status</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>month_salary</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[month_salary]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>month_salary</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>number_previous_jobs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[number_previous_jobs]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>number_previous_jobs</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>over_time</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[over_time]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>over_time</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>salary_increase</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[salary_increase]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>salary_increase</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>evaluation</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[evaluation]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>evaluation</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wormates-satisfaction</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[wormates-satisfaction]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>wormates-satisfaction</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>actions_level</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[actions_level]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>actions_level</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>experience_years</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[experience_years]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>experience_years</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>num_trainnings_last_year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[num_trainnings_last_year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>num_trainnings_last_year</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>years_company</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[years_company]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>years_company</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>years_since_last_promotion</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[years_since_last_promotion]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>years_since_last_promotion</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>years_same_manager</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[years_same_manager]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>years_same_manager</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>annual_salary</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[annual_salary]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>annual_salary</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>turnover_impact</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[turnover_impact]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>turnover_impact</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scoring_turnover</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[scoring_turnover]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>scoring_turnover</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='KPI Turnover Rate' datatype='real' name='[Calculation_184577223616548885]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([turnover])/COUNT([__tableau_internal_object_id__].[Sheet1_CDE71DC9EB79437B8FD9383B372688CD])' />
+      </column>
+      <column caption='At risk' datatype='integer' name='[Calculation_184577223621541910]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [scoring_turnover]&gt;= 0.5 then 1 else 0 END' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]' role='measure' type='quantitative' />
+      <column caption='Actions Level' datatype='integer' name='[actions_level]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Annual Salary' datatype='integer' name='[annual_salary]' role='measure' type='quantitative' />
+      <column caption='Carear' datatype='string' name='[carear]' role='dimension' type='nominal' />
+      <column caption='Civil Status' datatype='string' name='[civil_status]' role='dimension' type='nominal' />
+      <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+      <column caption='Education' datatype='string' name='[education]' role='dimension' type='nominal' />
+      <column caption='Evaluation' datatype='string' name='[evaluation]' role='dimension' type='nominal' />
+      <column caption='Experience Years' datatype='integer' name='[experience_years]' role='measure' type='quantitative' />
+      <column caption='Home Distance' datatype='integer' name='[home_distance]' role='measure' type='quantitative' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Implication' datatype='string' name='[implication]' role='dimension' type='nominal' />
+      <column caption='Month Salary' datatype='integer' name='[month_salary]' role='dimension' type='quantitative' />
+      <column caption='Num Trainnings Last Year' datatype='integer' name='[num_trainnings_last_year]' role='dimension' type='quantitative' />
+      <column caption='Number Previous Jobs' datatype='integer' name='[number_previous_jobs]' role='measure' type='quantitative' />
+      <column caption='Over Time' datatype='string' name='[over_time]' role='dimension' type='nominal' />
+      <column caption='Post' datatype='string' name='[post]' role='dimension' type='nominal' />
+      <column caption='Salary Increase' datatype='integer' name='[salary_increase]' role='measure' type='quantitative' />
+      <column caption='Satisfaction' datatype='string' name='[satisfaction]' role='dimension' type='nominal' />
+      <column caption='Scoring Turnover' datatype='real' name='[scoring_turnover]' role='measure' type='quantitative' />
+      <column caption='Travel' datatype='string' name='[travel]' role='dimension' type='nominal' />
+      <column caption='Turnover' datatype='integer' name='[turnover]' role='measure' type='quantitative' />
+      <column caption='Turnover Impact' datatype='real' name='[turnover_impact]' role='measure' type='quantitative' />
+      <column caption='Work Satisfaction' datatype='string' name='[work_satisfaction]' role='dimension' type='nominal' />
+      <column caption='Working Level' datatype='integer' name='[working_level]' role='measure' type='quantitative' />
+      <column caption='Wormates-Satisfaction' datatype='string' name='[wormates-satisfaction]' role='dimension' type='nominal' />
+      <column caption='Years Company' datatype='integer' name='[years_company]' role='measure' type='quantitative' />
+      <column caption='Years Same Manager' datatype='integer' name='[years_same_manager]' role='measure' type='quantitative' />
+      <column caption='Years Since Last Promotion' datatype='integer' name='[years_since_last_promotion]' role='measure' type='quantitative' />
+      <column-instance column='[post]' derivation='None' name='[none:post:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='Sheet1_CDE71DC9EB79437B8FD9383B372688CD' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection authentication='auth-none' author-locale='en_US' class='hyper' dbname='Data/Extracts/federated_1vwcuie1fx16if165e62h0.hyper' default-settings='yes' schema='Extract' tablename='Extract' update-time='10/03/2023 08:07:46 PM'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='Sheet1 (Employee turnover costs calculation)' increment-value='%null%' refresh-type='create' rows-inserted='1470' timestamp-start='2023-10-03 20:07:46.449' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1470</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>age</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>43</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>turnover</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[turnover]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>turnover</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>travel</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[travel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>travel</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>department</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[department]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>department</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>home_distance</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[home_distance]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>home_distance</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>education</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[education]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>education</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>carear</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[carear]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>carear</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>satisfaction</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[satisfaction]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>satisfaction</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>implication</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[implication]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>implication</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>working_level</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[working_level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>working_level</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>post</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[post]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>post</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>work_satisfaction</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[work_satisfaction]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>work_satisfaction</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>civil_status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[civil_status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>civil_status</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>month_salary</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[month_salary]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>month_salary</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1172</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>number_previous_jobs</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[number_previous_jobs]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>number_previous_jobs</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>over_time</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[over_time]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>over_time</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>salary_increase</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[salary_increase]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>salary_increase</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>evaluation</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[evaluation]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>evaluation</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>wormates-satisfaction</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[wormates-satisfaction]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>wormates-satisfaction</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>actions_level</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[actions_level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>actions_level</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>experience_years</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[experience_years]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>experience_years</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>40</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>num_trainnings_last_year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[num_trainnings_last_year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>num_trainnings_last_year</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>years_company</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[years_company]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>years_company</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>35</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>years_since_last_promotion</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[years_since_last_promotion]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>years_since_last_promotion</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>years_same_manager</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[years_same_manager]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>years_same_manager</remote-alias>
+              <ordinal>25</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>annual_salary</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[annual_salary]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>annual_salary</remote-alias>
+              <ordinal>26</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1172</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>turnover_impact</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[turnover_impact]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>turnover_impact</remote-alias>
+              <ordinal>27</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1172</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>scoring_turnover</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[scoring_turnover]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>scoring_turnover</remote-alias>
+              <ordinal>28</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:post:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Healthcare Representative&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Manufacturing Director&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Manager&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Sales Representative&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Research Scientist&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Laboratory Technician&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Research Director&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Human Resources&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Sales Executive&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='id' />
+        <field-sort-custom-order field='age' />
+        <field-sort-custom-order field='turnover' />
+        <field-sort-custom-order field='travel' />
+        <field-sort-custom-order field='department' />
+        <field-sort-custom-order field='home_distance' />
+        <field-sort-custom-order field='education' />
+        <field-sort-custom-order field='carear' />
+        <field-sort-custom-order field='satisfaction' />
+        <field-sort-custom-order field='implication' />
+        <field-sort-custom-order field='working_level' />
+        <field-sort-custom-order field='post' />
+        <field-sort-custom-order field='work_satisfaction' />
+        <field-sort-custom-order field='civil_status' />
+        <field-sort-custom-order field='month_salary' />
+        <field-sort-custom-order field='number_previous_jobs' />
+        <field-sort-custom-order field='over_time' />
+        <field-sort-custom-order field='salary_increase' />
+        <field-sort-custom-order field='evaluation' />
+        <field-sort-custom-order field='wormates-satisfaction' />
+        <field-sort-custom-order field='actions_level' />
+        <field-sort-custom-order field='experience_years' />
+        <field-sort-custom-order field='num_trainnings_last_year' />
+        <field-sort-custom-order field='years_company' />
+        <field-sort-custom-order field='years_since_last_promotion' />
+        <field-sort-custom-order field='years_same_manager' />
+        <field-sort-custom-order field='annual_salary' />
+        <field-sort-custom-order field='turnover_impact' />
+        <field-sort-custom-order field='scoring_turnover' />
+        <field-sort-custom-order field='Calculation_184577223621541910' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_CDE71DC9EB79437B8FD9383B372688CD'>
+            <properties context=''>
+              <relation connection='excel-direct.0lebyyq021r8hc1c7w01p0073i3c' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:AC1471:no:A1:AC1471:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='id' ordinal='0' />
+                  <column datatype='integer' name='age' ordinal='1' />
+                  <column datatype='integer' name='turnover' ordinal='2' />
+                  <column datatype='string' name='travel' ordinal='3' />
+                  <column datatype='string' name='department' ordinal='4' />
+                  <column datatype='integer' name='home_distance' ordinal='5' />
+                  <column datatype='string' name='education' ordinal='6' />
+                  <column datatype='string' name='carear' ordinal='7' />
+                  <column datatype='string' name='satisfaction' ordinal='8' />
+                  <column datatype='string' name='implication' ordinal='9' />
+                  <column datatype='integer' name='working_level' ordinal='10' />
+                  <column datatype='string' name='post' ordinal='11' />
+                  <column datatype='string' name='work_satisfaction' ordinal='12' />
+                  <column datatype='string' name='civil_status' ordinal='13' />
+                  <column datatype='integer' name='month_salary' ordinal='14' />
+                  <column datatype='integer' name='number_previous_jobs' ordinal='15' />
+                  <column datatype='string' name='over_time' ordinal='16' />
+                  <column datatype='integer' name='salary_increase' ordinal='17' />
+                  <column datatype='string' name='evaluation' ordinal='18' />
+                  <column datatype='string' name='wormates-satisfaction' ordinal='19' />
+                  <column datatype='integer' name='actions_level' ordinal='20' />
+                  <column datatype='integer' name='experience_years' ordinal='21' />
+                  <column datatype='integer' name='num_trainnings_last_year' ordinal='22' />
+                  <column datatype='integer' name='years_company' ordinal='23' />
+                  <column datatype='integer' name='years_since_last_promotion' ordinal='24' />
+                  <column datatype='integer' name='years_same_manager' ordinal='25' />
+                  <column datatype='integer' name='annual_salary' ordinal='26' />
+                  <column datatype='real' name='turnover_impact' ordinal='27' />
+                  <column datatype='real' name='scoring_turnover' ordinal='28' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.1vwcuie1fx16if165e62h04rolr4'>
+      <datasources>
+        <datasource caption='Sheet1 (Employee turnover costs calculation)' name='federated.1vwcuie1fx16if165e62h04rolr4' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1vwcuie1fx16if165e62h04rolr4'>
+        <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+        <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.1vwcuie1fx16if165e62h04rolr4].[none:department:nk]' context='true'>
+        <groupfilter function='level-members' level='[none:department:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_2503DC6CB62942AC8AC09EC6813284B8]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Employee turnover costs calculation' type='sheet' worksheet='KPI Euros at Risk' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Employee turnover costs calculation' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action3_5B47D18ED77249D898D677BAA9BF600C]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Employee turnover costs calculation' type='sheet' worksheet='Employee at risk of quitting' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Employee turnover costs calculation' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action3_BBE72C66C1D94A31BE013D86FB69DFB3]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Employee turnover costs calculation' type='sheet' worksheet='KPI turnover Rate' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Employee turnover costs calculation' />
+      </command>
+    </action>
+    <action caption='Filter 4 (generated)' name='[Action4_EB51435182BC47C28EE9749A3A1A1DEA]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Employee turnover costs calculation' type='sheet' worksheet='Emplooyees at hihg risk' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Employee turnover costs calculation' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Emplooyees at hihg risk'>
+      <repository-location derived-from='http://localhost:9100/workbooks/Employeeturnovercostscalculation/Emplooyeesathihgrisk?rev=' id='Emplooyeesathihgrisk' path='/workbooks/Employeeturnovercostscalculation' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Employee turnover costs calculation)' name='federated.1vwcuie1fx16if165e62h04rolr4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vwcuie1fx16if165e62h04rolr4'>
+            <column caption='At risk' datatype='integer' name='[Calculation_184577223621541910]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [scoring_turnover]&gt;= 0.5 then 1 else 0 END' />
+            </column>
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_184577223621541910]' derivation='None' name='[none:Calculation_184577223621541910:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+            <column-instance column='[id]' derivation='None' name='[none:id:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[post]' derivation='None' name='[none:post:nk]' pivot='key' type='nominal' />
+            <column caption='Post' datatype='string' name='[post]' role='dimension' type='nominal' />
+            <column caption='Scoring Turnover' datatype='real' name='[scoring_turnover]' role='measure' type='quantitative' />
+            <column-instance column='[scoring_turnover]' derivation='Sum' name='[sum:scoring_turnover:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[turnover_impact]' derivation='Sum' name='[sum:turnover_impact:qk]' pivot='key' type='quantitative' />
+            <column caption='Turnover Impact' datatype='real' name='[turnover_impact]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1vwcuie1fx16if165e62h04rolr4].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vwcuie1fx16if165e62h04rolr4].[sum:turnover_impact:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vwcuie1fx16if165e62h04rolr4].[sum:scoring_turnover:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1vwcuie1fx16if165e62h04rolr4].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1vwcuie1fx16if165e62h04rolr4].[sum:turnover_impact:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1vwcuie1fx16if165e62h04rolr4].[sum:scoring_turnover:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='quantitative' column='[federated.1vwcuie1fx16if165e62h04rolr4].[none:Calculation_184577223621541910:qk]' included-values='in-range'>
+            <min>1</min>
+            <max>1</max>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1vwcuie1fx16if165e62h04rolr4].[none:id:ok]' direction='DESC' measure-to-sort-by='[federated.1vwcuie1fx16if165e62h04rolr4].[sum:scoring_turnover:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1vwcuie1fx16if165e62h04rolr4].[none:department:nk]</column>
+            <column>[federated.1vwcuie1fx16if165e62h04rolr4].[:Measure Names]</column>
+            <column>[federated.1vwcuie1fx16if165e62h04rolr4].[none:Calculation_184577223621541910:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1vwcuie1fx16if165e62h04rolr4].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1vwcuie1fx16if165e62h04rolr4].[none:id:ok] / [federated.1vwcuie1fx16if165e62h04rolr4].[none:post:nk])</rows>
+        <cols>[federated.1vwcuie1fx16if165e62h04rolr4].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{D0907ECD-167E-45CE-AF5A-13041DEC7624}' />
+    </worksheet>
+    <worksheet name='Employee at risk of quitting'>
+      <repository-location derived-from='http://localhost:9100/workbooks/Employeeturnovercostscalculation/Employeeatriskofquitting?rev=' id='Employeeatriskofquitting' path='/workbooks/Employeeturnovercostscalculation' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Employee turnover costs calculation)' name='federated.1vwcuie1fx16if165e62h04rolr4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vwcuie1fx16if165e62h04rolr4'>
+            <column caption='At risk' datatype='integer' name='[Calculation_184577223621541910]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [scoring_turnover]&gt;= 0.5 then 1 else 0 END' />
+            </column>
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+            <column caption='Scoring Turnover' datatype='real' name='[scoring_turnover]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_184577223621541910]' derivation='Sum' name='[sum:Calculation_184577223621541910:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.1vwcuie1fx16if165e62h04rolr4].[none:department:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f0f7fa' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1vwcuie1fx16if165e62h04rolr4].[sum:Calculation_184577223621541910:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontsize='36'><![CDATA[<[federated.1vwcuie1fx16if165e62h04rolr4].[sum:Calculation_184577223621541910:qk]>]]></run>
+                <run fontalignment='1'>Æ&#10;</run>
+                <run fontalignment='1' fontsize='12'>Employee at risk of quitting</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B0ED06FA-E72D-4108-A8D5-BC8B01FC6493}' />
+    </worksheet>
+    <worksheet name='KPI Euros at Risk'>
+      <repository-location derived-from='http://localhost:9100/workbooks/Employeeturnovercostscalculation/KPIEurosatRisk?rev=' id='KPIEurosatRisk' path='/workbooks/Employeeturnovercostscalculation' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Employee turnover costs calculation)' name='federated.1vwcuie1fx16if165e62h04rolr4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vwcuie1fx16if165e62h04rolr4'>
+            <column caption='At risk' datatype='integer' name='[Calculation_184577223621541910]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [scoring_turnover]&gt;= 0.5 then 1 else 0 END' />
+            </column>
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_184577223621541910]' derivation='None' name='[none:Calculation_184577223621541910:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+            <column caption='Scoring Turnover' datatype='real' name='[scoring_turnover]' role='measure' type='quantitative' />
+            <column-instance column='[turnover_impact]' derivation='Sum' name='[sum:turnover_impact:qk]' pivot='key' type='quantitative' />
+            <column caption='Turnover Impact' datatype='real' name='[turnover_impact]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1vwcuie1fx16if165e62h04rolr4].[none:Calculation_184577223621541910:qk]' included-values='in-range'>
+            <min>1</min>
+            <max>1</max>
+          </filter>
+          <slices>
+            <column>[federated.1vwcuie1fx16if165e62h04rolr4].[none:department:nk]</column>
+            <column>[federated.1vwcuie1fx16if165e62h04rolr4].[none:Calculation_184577223621541910:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1vwcuie1fx16if165e62h04rolr4].[sum:turnover_impact:qk]' value='c!fr_FR!#,##0,K&quot; €&quot;' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1vwcuie1fx16if165e62h04rolr4].[sum:turnover_impact:qk]' value='c!fr_FR!#,##0,K&quot; €&quot;' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f0f7fa' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1vwcuie1fx16if165e62h04rolr4].[sum:turnover_impact:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontsize='36'><![CDATA[<[federated.1vwcuie1fx16if165e62h04rolr4].[sum:turnover_impact:qk]>]]></run>
+                <run fontalignment='1'>Æ&#10;</run>
+                <run bold='true' fontalignment='1' fontsize='12'> Euros at Risk</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{D6D20540-9FEB-4431-B197-8E4AD5E7038A}' />
+    </worksheet>
+    <worksheet name='KPI turnover Rate'>
+      <repository-location derived-from='http://localhost:9100/workbooks/Employeeturnovercostscalculation/KPIturnoverRate?rev=' id='KPIturnoverRate' path='/workbooks/Employeeturnovercostscalculation' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Employee turnover costs calculation)' name='federated.1vwcuie1fx16if165e62h04rolr4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vwcuie1fx16if165e62h04rolr4'>
+            <column caption='KPI Turnover Rate' datatype='real' name='[Calculation_184577223616548885]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([turnover])/COUNT([__tableau_internal_object_id__].[Sheet1_CDE71DC9EB79437B8FD9383B372688CD])' />
+            </column>
+            <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_CDE71DC9EB79437B8FD9383B372688CD]' role='measure' type='quantitative' />
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+            <column caption='Turnover' datatype='integer' name='[turnover]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_184577223616548885]' derivation='User' name='[usr:Calculation_184577223616548885:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.1vwcuie1fx16if165e62h04rolr4].[none:department:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1vwcuie1fx16if165e62h04rolr4].[usr:Calculation_184577223616548885:qk]' value='p0.0%' />
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1vwcuie1fx16if165e62h04rolr4].[usr:Calculation_184577223616548885:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f0f7fa' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-color' value='#ffffff' />
+            <format attr='background-color' value='#ffffff' />
+            <format attr='font-size' value='10' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1vwcuie1fx16if165e62h04rolr4].[usr:Calculation_184577223616548885:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontsize='36'><![CDATA[<[federated.1vwcuie1fx16if165e62h04rolr4].[usr:Calculation_184577223616548885:qk]>]]></run>
+                <run fontalignment='1'>Æ&#10;</run>
+                <run fontalignment='1' fontsize='12'>KPI turnover Rate</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4D520077-75ED-4780-86B0-CA578012F476}' />
+    </worksheet>
+    <worksheet name='Risk by Job position'>
+      <repository-location derived-from='http://localhost:9100/workbooks/Employeeturnovercostscalculation/RiskbyJobposition?rev=' id='RiskbyJobposition' path='/workbooks/Employeeturnovercostscalculation' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Employee turnover costs calculation)' name='federated.1vwcuie1fx16if165e62h04rolr4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vwcuie1fx16if165e62h04rolr4'>
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+            <column-instance column='[post]' derivation='None' name='[none:post:nk]' pivot='key' type='nominal' />
+            <column caption='Post' datatype='string' name='[post]' role='dimension' type='nominal' />
+            <column caption='Scoring Turnover' datatype='real' name='[scoring_turnover]' role='measure' type='quantitative' />
+            <column-instance column='[scoring_turnover]' derivation='Sum' name='[sum:scoring_turnover:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.1vwcuie1fx16if165e62h04rolr4].[none:department:nk]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.1vwcuie1fx16if165e62h04rolr4].[none:post:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.1vwcuie1fx16if165e62h04rolr4].[sum:scoring_turnover:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1vwcuie1fx16if165e62h04rolr4].[sum:scoring_turnover:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1vwcuie1fx16if165e62h04rolr4].[sum:scoring_turnover:qk]</rows>
+        <cols>[federated.1vwcuie1fx16if165e62h04rolr4].[none:post:nk]</cols>
+      </table>
+      <simple-id uuid='{32F58D59-B8BA-471B-AE1D-366BE92A2656}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Employee turnover costs calculation'>
+      <repository-location derived-from='http://localhost:9100/workbooks/Employeeturnovercostscalculation/Employeeturnovercostscalculation?rev=' id='Employeeturnovercostscalculation' path='/workbooks/Employeeturnovercostscalculation' revision='' />
+      <style>
+        <style-rule element='dash-title'>
+          <format attr='color' value='#f5f5f5' />
+        </style-rule>
+        <style-rule element='dash-subtitle'>
+          <format attr='color' value='#333333' />
+        </style-rule>
+        <style-rule element='dash-text'>
+          <format attr='color' value='#ffffff' />
+        </style-rule>
+      </style>
+      <size maxheight='768' maxwidth='1366' minheight='768' minwidth='1366' sizing-mode='fixed' />
+      <datasources>
+        <datasource caption='Sheet1 (Employee turnover costs calculation)' name='federated.1vwcuie1fx16if165e62h04rolr4' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1vwcuie1fx16if165e62h04rolr4'>
+        <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+        <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97916' id='26' param='horz' type-v2='layout-flow' w='98828' x='586' y='1042'>
+            <zone h='97916' id='18' type-v2='layout-basic' w='98828' x='586' y='1042'>
+              <zone h='85026' id='14' name='Emplooyees at hihg risk' w='33399' x='66015' y='13932'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='57031' id='15' name='Risk by Job position' w='65429' x='586' y='41927'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='8724' id='16' param='vert' type-v2='layout-flow' w='10907' x='586' y='1042'>
+                <zone h='8724' id='17' is-centered='0' is-scaled='1' param='Image/logo_dashboard.png' type-v2='bitmap' w='10907' x='586' y='1042'>
+                  <zone-style>
+                    <format attr='border-color' value='#f9a655' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='0' />
+                    <format attr='background-color' value='#000000' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone forceUpdate='true' h='8724' id='29' type-v2='text' w='87921' x='11493' y='1042'>
+                <formatted-text>
+                  <run bold='true' fontcolor='#e15759' fontsize='36'>          Dashboard Employees Turnover</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='0' />
+                  <format attr='background-color' value='#000000' />
+                </zone-style>
+              </zone>
+              <zone fixed-size='24' forceUpdate='true' h='4166' id='28' is-fixed='true' type-v2='text' w='98828' x='586' y='9766'>
+                <formatted-text>
+                  <run fontcolor='#ffffff' fontsize='16'>Dashboard Employees Turnover</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='27995' id='31' name='Employee at risk of quitting' show-title='false' w='21243' x='21827' y='13932'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='27995' id='32' name='KPI Euros at Risk' show-title='false' w='22945' x='43070' y='13932'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='27995' id='33' name='KPI turnover Rate' show-title='false' w='21241' x='586' y='13932'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='7813' id='34' mode='dropdown' name='KPI turnover Rate' param='[federated.1vwcuie1fx16if165e62h04rolr4].[none:department:nk]' show-title='false' type-v2='filter' values='database' w='22474' x='76794' y='1563'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#ffffff' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1500' minheight='1500' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='50' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='49' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+                <zone fixed-size='65' h='8724' id='17' is-centered='0' is-fixed='true' is-scaled='1' param='Image/logo_dashboard.png' type-v2='bitmap' w='10907' x='586' y='1042'>
+                  <zone-style>
+                    <format attr='border-color' value='#f9a655' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#000000' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='8724' id='29' type-v2='text' w='87921' x='11493' y='1042'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#e15759' fontsize='36'>          Dashboard Employees Turnover</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#000000' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='24' forceUpdate='true' h='4166' id='28' type-v2='text' w='98828' x='586' y='9766'>
+                  <formatted-text>
+                    <run fontcolor='#ffffff' fontsize='16'>Dashboard Employees Turnover</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7813' id='34' mode='dropdown' name='KPI turnover Rate' param='[federated.1vwcuie1fx16if165e62h04rolr4].[none:department:nk]' show-title='false' type-v2='filter' values='database' w='22474' x='76794' y='1563'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='207' h='27995' id='33' is-fixed='true' name='KPI turnover Rate' show-title='false' w='21241' x='586' y='13932'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='207' h='27995' id='31' is-fixed='true' name='Employee at risk of quitting' show-title='false' w='21243' x='21827' y='13932'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='207' h='27995' id='32' is-fixed='true' name='KPI Euros at Risk' show-title='false' w='22945' x='43070' y='13932'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='85026' id='14' is-fixed='true' name='Emplooyees at hihg risk' w='33399' x='66015' y='13932'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='57031' id='15' is-fixed='true' name='Risk by Job position' w='65429' x='586' y='41927'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{A3A0F609-7FE7-4A52-9270-0A45CB401484}' />
+    </dashboard>
+  </dashboards>
+  <windows show-side-pane='false'>
+    <window class='worksheet' name='KPI turnover Rate'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31' />
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='checklist' param='[federated.1vwcuie1fx16if165e62h04rolr4].[none:department:nk]' type='filter' values='database' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1vwcuie1fx16if165e62h04rolr4].[none:department:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FEEF8D44-D5EE-46A3-8A3F-ADE52540B63E}' />
+    </window>
+    <window class='worksheet' name='Employee at risk of quitting'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31' />
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{39309BEC-35C3-4602-8E77-0E2E9B9D8CEF}' />
+    </window>
+    <window class='worksheet' name='KPI Euros at Risk'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31' />
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{0422367E-A3CF-4DC9-B4A9-4C444857673F}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Risk by Job position'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160' />
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <selection-collection>
+          <node-selection select-tuples='false'>
+            <oriented-node-reference orientation='horizontal'>
+              <node-reference>
+                <fields>
+                  <field>[federated.1vwcuie1fx16if165e62h04rolr4].[none:post:nk]</field>
+                </fields>
+                <multibucket>
+                  <bucket>&quot;Sales Representative&quot;</bucket>
+                </multibucket>
+              </node-reference>
+              <page-reference />
+            </oriented-node-reference>
+          </node-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1vwcuie1fx16if165e62h04rolr4].[none:post:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{1D1DE751-95F3-4A42-992D-E0D3F856CB20}' />
+    </window>
+    <window class='worksheet' name='Emplooyees at hihg risk'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1vwcuie1fx16if165e62h04rolr4].[none:id:ok]</field>
+            <field>[federated.1vwcuie1fx16if165e62h04rolr4].[none:post:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BB76ECA7-295A-49CC-8AFF-82C65AFC1629}' />
+    </window>
+    <window class='dashboard' name='Employee turnover costs calculation'>
+      <viewpoints>
+        <viewpoint name='Emplooyees at hihg risk' />
+        <viewpoint name='Employee at risk of quitting'>
+          <zoom type='entire-view' />
+          <selection-collection>
+            <tuple-selection>
+              <tuple-reference>
+                <tuple-descriptor>
+                  <pane-descriptor>
+                    <x-fields />
+                    <y-fields />
+                  </pane-descriptor>
+                  <columns>
+                    <field>[federated.1vwcuie1fx16if165e62h04rolr4].[sum:Calculation_184577223621541910:qk]</field>
+                  </columns>
+                </tuple-descriptor>
+                <tuple>
+                  <value>76</value>
+                </tuple>
+              </tuple-reference>
+            </tuple-selection>
+          </selection-collection>
+        </viewpoint>
+        <viewpoint name='KPI Euros at Risk'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI turnover Rate'>
+          <zoom type='entire-view' />
+          <selection-collection>
+            <tuple-selection>
+              <tuple-reference>
+                <tuple-descriptor>
+                  <pane-descriptor>
+                    <x-fields />
+                    <y-fields />
+                  </pane-descriptor>
+                  <columns>
+                    <field>[federated.1vwcuie1fx16if165e62h04rolr4].[usr:Calculation_184577223616548885:qk]</field>
+                  </columns>
+                </tuple-descriptor>
+                <tuple>
+                  <value>0.16122448979591836</value>
+                </tuple>
+              </tuple-reference>
+            </tuple-selection>
+          </selection-collection>
+        </viewpoint>
+        <viewpoint name='Risk by Job position'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <device-preview visible='true' />
+      <simple-id uuid='{1B430C32-8F88-48B1-B9F4-03A0B599E3F1}' />
+    </window>
+  </windows>
+</workbook>
