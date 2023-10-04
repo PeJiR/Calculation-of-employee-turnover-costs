@@ -26,7 +26,7 @@ By reducing employee turnover, businesses can save money and improve their botto
 ### Project Steps
 [<img src = "project.png">](TPS_Dia_1_Configuracion.ipynb)
 
-### [See Project Code](https://github.com/PeJiR/Calculation-of-employee-turnover-costs/blob/main/Employee%20turnover%20costs%20calculation.ipynb)
+### [See Project Notebook](https://github.com/PeJiR/Calculation-of-employee-turnover-costs/blob/main/Employee%20turnover%20costs%20calculation.ipynb)
 
 ### [See Dashboard in Tableau](https://public.tableau.com/shared/P6PGN3KPC?:display_count=n&:origin=viz_share_link )
 
