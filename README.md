@@ -4,6 +4,7 @@
 <a target="new" href="https://github.com/PeJiR/Calculation-of-employee-turnover-costs"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPeJiR%2FCalculation-of-employee-turnover-costs&count_bg=%23FFA857&title_bg=%23161616&icon=&icon_color=%23971F1F&title=Views&edge_flat=false"/></a>
 <a target="new" href="https://github.com/PeJiR/Calculation-of-employee-turnover-costs"><img border=0 src="https://img.shields.io/github/stars/Pejir/Calculation-of-employee-turnover-costs .svg?style=social&label=Star&maxAge=60" alt="Star this repo"></a>
 
+---
 
 Employee turnover costs calculation is the process of determining the financial impact of employee turnover on a business. It includes both direct and indirect costs, such as:
 
