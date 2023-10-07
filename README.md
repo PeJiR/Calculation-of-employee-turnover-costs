@@ -2,8 +2,8 @@
 
 <a target="new" href="https://github.com/PeJiR/Calculation-of-employee-turnover-costs"><img border=0 src="https://img.shields.io/badge/python-2.7,%203.6+-blue.svg?style=flat" alt="Python version"></a>
 <a target="new" href="https://travis-ci.com/github/pejir/Calculation-of-employee-turnover-costs "><img border=0 src="https://img.shields.io/travis/pejir/Calculation-of-employee-turnover-costs/main.svg?maxAge=1" alt="Travis-CI build status"></a>
-<a target="new" href="https://www.codefactor.io/repository/github/ranaroussi/yfinance"><img border=0 src="https://www.codefactor.io/repository/github/pejir/Calculation-of-employee-turnover-costs /badge" alt="CodeFactor"></a>
-<a target="new" href="https://github.com/PeJiR/Calculation-of-employee-turnover-costs"><img border=0 src="https://img.shields.io/github/stars/pejir/Calculation-of-employee-turnover-costs .svg?style=social&label=Star&maxAge=60" alt="Star this repo"></a>
+<a target="new" href="https://www.codefactor.io/repository/github/PeJiR/Calculation-of-employee-turnover-costs"><img border=0 src="https://www.codefactor.io/repository/github/Pejir/Calculation-of-employee-turnover-costs /badge" alt="CodeFactor"></a>
+<a target="new" href="https://github.com/PeJiR/Calculation-of-employee-turnover-costs"><img border=0 src="https://img.shields.io/github/stars/Pejir/Calculation-of-employee-turnover-costs .svg?style=social&label=Star&maxAge=60" alt="Star this repo"></a>
 
 <a target
 
