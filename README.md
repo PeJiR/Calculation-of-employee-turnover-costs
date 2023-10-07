@@ -1,5 +1,42 @@
 #  Calculation of employee turnover costs
 
+<a target="new" href="https://pypi.python.org/pypi/yfinance"><img border=0 src="https://img.shields.io/badge/python-2.7,%203.6+-blue.svg?style=flat" alt="Python version"></a>
+<a target="new" href="https://pypi.python.org/pypi/yfinance"><img border=0 src="https://img.shields.io/pypi/v/yfinance.svg?maxAge=60%" alt="PyPi version"></a>
+<a target="new" href="https://pypi.python.org/pypi/yfinance"><img border=0 src="https://img.shields.io/pypi/status/yfinance.svg?maxAge=60" alt="PyPi status"></a>
+<a target="new" href="https://pypi.python.org/pypi/yfinance"><img border=0 src="https://img.shields.io/pypi/dm/yfinance.svg?maxAge=2592000&label=installs&color=%2327B1FF" alt="PyPi downloads"></a>
+<a target="new" href="https://travis-ci.com/github/ranaroussi/yfinance"><img border=0 src="https://img.shields.io/travis/ranaroussi/yfinance/main.svg?maxAge=1" alt="Travis-CI build status"></a>
+<a target="new" href="https://www.codefactor.io/repository/github/ranaroussi/yfinance"><img border=0 src="https://www.codefactor.io/repository/github/ranaroussi/yfinance/badge" alt="CodeFactor"></a>
+<a target="new" href="https://github.com/ranaroussi/yfinance"><img border=0 src="https://img.shields.io/github/stars/ranaroussi/yfinance.svg?style=social&label=Star&maxAge=60" alt="Star this repo"></a>
+<a target="new" href="https://twitter.com/aroussi"><img border=0 src="https://img.shields.io/twitter/follow/aroussi.svg?style=social&label=Follow&maxAge=60" alt="Follow me on twitter"></a>
+<a href="https://github.com/pejir">
+<hr/>
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+  <a href="https://github.com/PeJiR/Excel" target="_blank">
+   <img src="https://img.shields.io/badge/excel-365-green"alt="Excel" />
+    
+  <a href="https://github.com/PeJiR/Excel" target="_blank">
+   <img src="https://img.shields.io/pypi/status/ezibpy.svg?maxAge=60" alt="status" />
+    
+  <a href="https://github.com/PeJiR/Excel" target="_blank">
+   <img src="https://img.shields.io/github/stars/pejir/excel.svg?style=social&label=Star&maxAge=60" alt="Star this repo" />
+
+  <a href="https://www.online-python.com/oQn49MZL3r" target ="blank">
+   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwww.online-python.com%2FoQn49MZL3r&count_bg=%23FFA857&title_bg=%23161616&icon=&icon_color=%23971F1F&title=Views&edge_flat=false"/>
+
+  
+  <a href="https://www.linkedin.com/in/pejir/" target="_blank">
+   <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue" alt="LinkedIn" />
+  
+  </a>
+</body>
+</html>
+
+
 Employee turnover costs calculation is the process of determining the financial impact of employee turnover on a business. It includes both direct and indirect costs, such as:
 
 - **Direct costs**:
