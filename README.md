@@ -42,7 +42,7 @@ https://github.com/PeJiR/Calculation-of-employee-turnover-costs.git
 Simply navigate to the project directory:
 
 ```sh
-https://github.com/PeJiR/Calculation-of-employee-turnover-costs/blob/main/Employee%20turnover%20costs%20calculation.ipynb
+https://github.com/PeJiR/Calculation-of-employee-turnover-costs/blob/84dacbac130368b24ff71f3b1f85fc4e9332e026/Employee%20turnover%20costs%20calculation.ipynb
 ```
 
 ## [Dashboard in Tableau](https://public.tableau.com/shared/P6PGN3KPC?:display_count=n&:origin=viz_share_link )
