@@ -38,17 +38,55 @@ Simply clone the repository to your local machine
 ```sh
 https://github.com/PeJiR/Calculation-of-employee-turnover-costs.git
  ```
-## Usage
-Simply navigate to the project directory and run the following command:
+## Code
+Simply navigate to the project directory:
 
 ```sh
-pejir
+https://github.com/PeJiR/Calculation-of-employee-turnover-costs/blob/main/Employee%20turnover%20costs%20calculation.ipynb
 ```
-### [Project Notebook](https://github.com/PeJiR/Calculation-of-employee-turnover-costs/blob/main/Employee%20turnover%20costs%20calculation.ipynb)
 
-### [Dashboard in Tableau](https://public.tableau.com/shared/P6PGN3KPC?:display_count=n&:origin=viz_share_link )
+## [Dashboard in Tableau](https://public.tableau.com/shared/P6PGN3KPC?:display_count=n&:origin=viz_share_link )
 
  [<img src = "Tableau.png">](https://public.tableau.com/shared/P6PGN3KPC?:display_count=n&:origin=viz_share_link)
+
+## Conclusion
+This project is a tool for businesses to calculate the cost of employee turnover. The tool is easy to use and can be customized to fit the specific needs of each business.
+
+By using this tool, businesses can understand the financial impact of employee turnover and develop strategies to reduce it. This can lead to significant savings and improved performance.
+
+I encourage businesses of all sizes to use this tool to calculate the cost of employee turnover and take steps to reduce it.
+
+## Author
+
+👤 **Roberto PEREZ**
+
+<!---* Website: pejir
+* [Twitter](https://twitter.com/pejir)--->
+* [Github](https://github.com/pejir)
+* [LinkedIn](https://linkedin.com/in/pejir)
+
+<!---
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](pejir). You can also take a look at the [contributing guide](pejir).
+---> 
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+<!---
+<a href="https://www.patreon.com/pejir">
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
+--->
+
+## 📝 License
+
+Copyright © 2023 [Robeto Perez](https://github.com/PeJiR).<br />
+This project is [MIT](https://opensource.org/license/mit/) licensed.
+
+
 
 
 P.S.
