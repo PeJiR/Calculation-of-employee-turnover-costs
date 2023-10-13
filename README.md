@@ -83,7 +83,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2023 [Robeto Perez](https://github.com/PeJiR).<br />
+Copyright © 2023 [Roberto Perez](https://github.com/PeJiR).<br />
 This project is [MIT](https://opensource.org/license/mit/) licensed.
 
 
