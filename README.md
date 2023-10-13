@@ -33,8 +33,17 @@ By reducing employee turnover, businesses can save money and improve their botto
 ### Project Steps
 [<img src = "project.png">](TPS_Dia_1_Configuracion.ipynb)
   
-  
+## Install
+Simply clone the repository to your local machine  
+```sh
+https://github.com/PeJiR/Calculation-of-employee-turnover-costs.git
+ ```
+## Usage
+Simply navigate to the project directory and run the following command:
 
+```sh
+pejir
+```
 ### [Project Notebook](https://github.com/PeJiR/Calculation-of-employee-turnover-costs/blob/main/Employee%20turnover%20costs%20calculation.ipynb)
 
 ### [Dashboard in Tableau](https://public.tableau.com/shared/P6PGN3KPC?:display_count=n&:origin=viz_share_link )
