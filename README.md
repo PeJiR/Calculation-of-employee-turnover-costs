@@ -48,7 +48,7 @@ https://github.com/PeJiR/Calculation-of-employee-turnover-costs/blob/84dacbac130
 
 ## Dashboard in Tableau
 
- [<img src = "Tableau.png">](https://public.tableau.com/shared/P6PGN3KPC?:display_count=n&:origin=viz_share_link)
+ [<img src = "Tableau.png">](https://public.tableau.com/views/Employeeturnovercostscalculation/Employeeturnovercostscalculation?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link)
 
 ## Conclusion
 This project is a tool for businesses to calculate the cost of employee turnover. The tool is easy to use and can be customized to fit the specific needs of each business.
