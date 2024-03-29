@@ -48,9 +48,10 @@ https://github.com/PeJiR/Calculation-of-employee-turnover-costs/blob/84dacbac130
 
 ## Technology Used
 
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" alt="css3" width="40" height="40"/> 
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="40" height="40"/> </a>
+- scikitlearn  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" alt="css3" width="40" height="40"/> 
 
+- mysql <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="40" height="40"/> </a>
+- Tableau Public
 ## Dashboard in Tableau
 
  [<img src = "Tableau.png">](https://public.tableau.com/views/Employeeturnovercostscalculation/Employeeturnovercostscalculation?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link)
