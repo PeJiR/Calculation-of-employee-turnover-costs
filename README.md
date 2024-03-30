@@ -46,7 +46,7 @@ Simply navigate to the project directory:
 https://github.com/PeJiR/Calculation-of-employee-turnover-costs/blob/84dacbac130368b24ff71f3b1f85fc4e9332e026/Employee%20turnover%20costs%20calculation.ipynb
 ```
 
-## Technology Used
+## Technology Used ✨
 
 - scikitlearn  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" alt="css3" width="40" height="40"/> 
 
